@@ -1,0 +1,38 @@
+#show_coffee {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+}
+
+#show_coffee>div {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    padding: 10px 20px 10px 22px;
+    background-color: teal;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#check {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
